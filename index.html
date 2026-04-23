@@ -1,29 +1,219 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>My Landing Page</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HP Pavilion 14 — Beautifully Versatile</title>
+  <meta name="description" content="HP Pavilion 14 — an elegantly designed laptop built for creators, students, and professionals. Discover its stunning display, all-day battery, and premium build." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-	<header>
-		<h1 class="heading">Welcome to My Landing Page</h1>
-	</header>
 
-	<main>
-        <h1 class="brand-index">Lenovo legion 5</h1>
-		<p class="about">lenovo is a powerful laptop that is made for hustlers on the move.  It has a thin and light design which which enables maximum portability along with powerful performance. With its high quality display, be it productivity or content consumption,Lenovo will always have your back. This lap is perfect for power users on the move, who need a portable yet powerful machine to get work done and also to enable content creation and consumption.The laptop is sandblasted with a minute ceramic coating particles and anodized to ensure an extremely smooth, Lustrous Grey finish. 
-        </p>
+  <!-- ── NAV ── -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-icon">⬡</span>
+        <span>PAVILION</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="featues.html" class="nav-link">Features</a></li>
+      </ul>
+      <a href="featues.html" class="nav-cta">Explore Specs</a>
+    </div>
+  </nav>
 
-	<img src="./assets/legion.jpg" alt="laptop image">
+  <!-- ── HERO ── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+      <div class="hero-grid"></div>
+    </div>
 
-		<p class="about">Work and play all day and all night with the backlit keyboard while the 62%* larger trackpad allows for precise gesture control and smooth scrolling</p>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Everyday Premium
+      </div>
+      <h1 class="hero-title">
+        HP<br />
+        <span class="gradient-text">Pavilion 14</span>
+      </h1>
+      <p class="hero-sub">
+        Beautifully designed for everything you do. A thin, light powerhouse that blends style with serious performance — for creators, students, and go-getters.
+      </p>
+      <div class="hero-actions">
+        <a href="featues.html" class="btn btn-primary">
+          <span>Explore Features</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#specs" class="btn btn-ghost">Quick Specs</a>
+      </div>
+    </div>
 
-		<a href="./featues.html" class="button">Features</a>
-	</main>
-    <hr>
+    <div class="hero-visual">
+      <div class="laptop-glow"></div>
+      <img src="./assets/pavilion14.png" alt="HP Pavilion 14 Laptop" class="hero-img" />
+    </div>
 
-	<center><footer>
-		<p> Copyright &copy; 2023 MANVITHA.All Rights Reserved</p>
-	</footer></center>
+    <div class="hero-scroll">
+      <span>Scroll to explore</span>
+      <div class="scroll-bar"><div class="scroll-thumb"></div></div>
+    </div>
+  </section>
+
+  <!-- ── STATS ── -->
+  <section class="stats" id="stats">
+    <div class="stats-inner">
+      <div class="stat-card">
+        <span class="stat-value">14<span class="stat-unit">"</span></span>
+        <span class="stat-label">FHD Display</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-card">
+        <span class="stat-value">10<span class="stat-unit">hrs</span></span>
+        <span class="stat-label">Battery Life</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-card">
+        <span class="stat-value">i5<span class="stat-unit">/i7</span></span>
+        <span class="stat-label">Intel Core</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-card">
+        <span class="stat-value">1.41<span class="stat-unit">kg</span></span>
+        <span class="stat-label">Ultra Light</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section class="about-section" id="about">
+    <div class="section-inner">
+      <div class="section-label">About the Machine</div>
+      <h2 class="section-title">Crafted for<br /><span class="gradient-text">Modern Life</span></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            The HP Pavilion 14 is engineered for the way you live and work today. Its slim aluminium chassis and micro-edge display pack a stunning visual experience into a form factor you can take anywhere — from the office to the café to the classroom.
+          </p>
+          <p>
+            Powered by Intel Core i5/i7 processors with optional Intel Iris Xe or NVIDIA MX graphics, the Pavilion 14 handles creative tasks, multitasking, and everyday computing with quiet confidence. All-day battery means you stay productive without the anxiety of finding a socket.
+          </p>
+          <a href="featues.html" class="btn btn-primary" style="margin-top:1.5rem;display:inline-flex;">
+            <span>View Full Specs</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <div class="hi-icon">🖥️</div>
+            <div>
+              <div class="hi-title">Micro-Edge Display</div>
+              <div class="hi-desc">14" FHD IPS with slim bezels — more screen, less frame.</div>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="hi-icon">⚡</div>
+            <div>
+              <div class="hi-title">Intel Core Power</div>
+              <div class="hi-desc">11th/12th Gen Intel Core i5/i7 with Iris Xe Graphics built in.</div>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="hi-icon">🎨</div>
+            <div>
+              <div class="hi-title">Premium Build</div>
+              <div class="hi-desc">Aluminium chassis in Natural Silver — sleek, durable, head-turning.</div>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="hi-icon">🔋</div>
+            <div>
+              <div class="hi-title">All-Day Battery</div>
+              <div class="hi-desc">Up to 10 hours of real-world use — unplug and keep moving.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── QUICK SPECS ── -->
+  <section class="specs-section" id="specs">
+    <div class="section-inner">
+      <div class="section-label">Technical Specifications</div>
+      <h2 class="section-title">Every Detail,<br /><span class="gradient-text">Perfected</span></h2>
+      <div class="specs-grid">
+        <div class="spec-card">
+          <div class="spec-icon">💻</div>
+          <div class="spec-name">Display</div>
+          <div class="spec-value">14" FHD IPS<br />250 nits · Anti-glare · Micro-Edge</div>
+        </div>
+        <div class="spec-card">
+          <div class="spec-icon">🧠</div>
+          <div class="spec-name">Processor</div>
+          <div class="spec-value">Intel Core i5 / i7<br />11th / 12th Gen</div>
+        </div>
+        <div class="spec-card">
+          <div class="spec-icon">🎮</div>
+          <div class="spec-name">Graphics</div>
+          <div class="spec-value">Intel Iris Xe<br />Optional NVIDIA MX550</div>
+        </div>
+        <div class="spec-card">
+          <div class="spec-icon">💾</div>
+          <div class="spec-name">Memory</div>
+          <div class="spec-value">8GB / 16GB<br />DDR4 3200 MHz</div>
+        </div>
+        <div class="spec-card">
+          <div class="spec-icon">⌨️</div>
+          <div class="spec-name">Input</div>
+          <div class="spec-value">Backlit Keyboard<br />Fingerprint Reader</div>
+        </div>
+        <div class="spec-card">
+          <div class="spec-icon">🔌</div>
+          <div class="spec-name">Connectivity</div>
+          <div class="spec-value">USB-C · USB-A · HDMI<br />Wi-Fi 6 · Bluetooth 5</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section class="cta-section">
+    <div class="cta-orb cta-orb-1"></div>
+    <div class="cta-orb cta-orb-2"></div>
+    <div class="cta-inner">
+      <div class="section-label">Ready to Upgrade?</div>
+      <h2 class="cta-title">Experience the Pavilion<br /><span class="gradient-text">Difference</span></h2>
+      <p class="cta-desc">Dive deep into every feature that makes the HP Pavilion 14 the laptop for modern achievers.</p>
+      <a href="featues.html" class="btn btn-primary btn-lg">
+        <span>Explore All Features</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span class="logo-icon">⬡</span>
+        <span>PAVILION</span>
+      </div>
+      <p class="footer-copy">Copyright &copy; 2023 MANVITHA. All Rights Reserved.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="featues.html">Features</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
